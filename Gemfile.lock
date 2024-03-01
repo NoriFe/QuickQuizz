@@ -275,6 +275,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    retryable (3.0.5)
     rexml (3.2.6)
     rtesseract (3.1.3)
     ruby-openai (6.3.1)
@@ -358,6 +359,7 @@ DEPENDENCIES
   pry-byebug
   puma (>= 5.0)
   rails (~> 7.1.3)
+  retryable
   rtesseract
   ruby-openai
   sassc-rails

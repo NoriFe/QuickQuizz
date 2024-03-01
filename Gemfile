@@ -23,6 +23,8 @@ gem "pg", "~> 1.1"
 # debugging
 gem "pry-byebug"
 
+gem 'retryable'
+
 # user authentication
 gem "devise"
 
