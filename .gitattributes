@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://git-scm.com/docs/gitattributes for more about git attribute files.
 
 # Mark the database schema as having been generated.
@@ -7,3 +8,7 @@ db/schema.rb linguist-generated
 vendor/* linguist-vendored
 config/credentials/*.yml.enc diff=rails_credentials
 config/credentials.yml.enc diff=rails_credentials
+=======
+# Auto detect text files and perform LF normalization
+* text=auto
+>>>>>>> 119d15c57f97e892bf07f5b1b5536b363a68a331
