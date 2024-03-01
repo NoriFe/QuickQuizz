@@ -1,0 +1,565 @@
+*   [33m7b6b5d3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Resolved merge conflict in .gitattributes
+[31m|[m[32m\[m  
+[31m|[m * [33m119d15c[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m Initial commit
+* [33mc9579fb[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m test
+* [33m0165793[m test
+* [33m06d1765[m copied my own repo so is not forked
+* [33m4b99b12[m adding API key to openAI and creating a backoff for calling to many times
+*   [33mfb34473[m Merge pull request #83 from crescendolll/update-seeds
+[33m|[m[34m\[m  
+[33m|[m * [33mb0f4989[m will this fix the chatgpt issue?
+* [34m|[m   [33m88beafe[m Merge pull request #82 from crescendolll/question-bars
+[35m|[m[36m\[m [34m\[m  
+[35m|[m * [34m\[m   [33m9167bb0[m Merge branch 'master' into question-bars
+[35m|[m [1;31m|[m[35m\[m [34m\[m  
+[35m|[m [1;31m|[m[35m/[m [34m/[m  
+[35m|[m[35m/[m[1;31m|[m [34m|[m   
+* [1;31m|[m [34m|[m   [33mf88938c[m Merge pull request #80 from crescendolll/adjust-500
+[1;33m|[m[1;34m\[m [1;31m\[m [34m\[m  
+[1;33m|[m * [1;31m|[m [34m|[m [33m761e65b[m made error pages into cards
+[1;33m|[m [34m|[m [1;31m|[m[34m/[m  
+[1;33m|[m [34m|[m[34m/[m[1;31m|[m   
+* [34m|[m [1;31m|[m   [33m17e2488[m Merge pull request #79 from crescendolll/MainPage
+[34m|[m[1;36m\[m [34m\[m [1;31m\[m  
+[34m|[m [1;36m|[m[34m/[m [1;31m/[m  
+[34m|[m[34m/[m[1;36m|[m [1;31m|[m   
+[34m|[m * [1;31m|[m [33m1214a72[m Delete app/assets/stylesheets/components/_camera.scss
+[34m|[m * [1;31m|[m [33m9d6ff4f[m button color and font changed
+[34m|[m[34m/[m [1;31m/[m  
+[34m|[m * [33med53d5f[m moves CSS for upload image to correct CSS page
+[34m|[m *   [33mfd5903c[m Merge branch 'master' into question-bars
+[34m|[m [31m|[m[34m\[m  
+[34m|[m [31m|[m[34m/[m  
+[34m|[m[34m/[m[31m|[m   
+* [31m|[m   [33mabd7777[m Merge pull request #78 from crescendolll/question-bars
+[33m|[m[34m\[m [31m\[m  
+[33m|[m [34m|[m * [33m68a3ae6[m added new image icon
+[33m|[m [34m|[m * [33m2907928[m Merge branch 'master' into question-bars
+[33m|[m [34m|[m[34m/[m[33m|[m 
+[33m|[m [34m|[m[33m/[m  
+[33m|[m[33m/[m[34m|[m   
+* [34m|[m   [33m01bc921[m Merge pull request #77 from crescendolll/ButtonMove
+[1;31m|[m[1;32m\[m [34m\[m  
+[1;31m|[m * [34m|[m [33m21df128[m apply the scroll effect to the new quiz button
+* [1;32m|[m [34m|[m   [33m43beb76[m Merge pull request #76 from crescendolll/activenavbarcolor
+[1;33m|[m[1;34m\[m [1;32m\[m [34m\[m  
+[1;33m|[m * [1;32m\[m [34m\[m   [33m08432a0[m Merge branch 'master' into activenavbarcolor
+[1;33m|[m [1;32m|[m[1;33m\[m [1;32m\[m [34m\[m  
+[1;33m|[m [1;32m|[m[1;33m/[m [1;32m/[m [34m/[m  
+[1;33m|[m[1;33m/[m[1;32m|[m [1;32m/[m [34m/[m   
+[1;33m|[m [1;32m|[m[1;32m/[m [34m/[m    
+* [1;32m|[m [34m|[m   [33mf30a056[m Merge pull request #75 from crescendolll/404-500-pages
+[31m|[m[32m\[m [1;32m\[m [34m\[m  
+[31m|[m * [1;32m\[m [34m\[m   [33mc4fc2ed[m Merge branch 'master' into 404-500-pages
+[31m|[m [33m|[m[31m\[m [1;32m\[m [34m\[m  
+[31m|[m [33m|[m[31m/[m [1;32m/[m [34m/[m  
+[31m|[m[31m/[m[33m|[m [1;32m|[m [34m|[m   
+* [33m|[m [1;32m|[m [34m|[m   [33m553ef5a[m Merge pull request #74 from crescendolll/quiz-response-animation
+[35m|[m[36m\[m [33m\[m [1;32m\[m [34m\[m  
+[35m|[m * [33m|[m [1;32m|[m [34m|[m [33m622c50d[m quiz design complete
+[35m|[m * [33m|[m [1;32m|[m [34m|[m [33me942bd6[m quiz page styling and other small related styling adjustments
+* [36m|[m [33m|[m [1;32m|[m [34m|[m   [33mba6ada3[m Merge pull request #72 from crescendolll/even-more-seeds
+[36m|[m[1;32m\[m [36m\[m [33m\[m [1;32m\[m [34m\[m  
+[36m|[m [1;32m|[m[36m/[m [33m/[m [1;32m/[m [34m/[m  
+[36m|[m[36m/[m[1;32m|[m [33m|[m [1;32m|[m [34m|[m   
+[36m|[m * [33m|[m [1;32m|[m [34m|[m [33m732c875[m more quizzes added for rokasUser, email for login changed
+[36m|[m [1;32m|[m * [1;32m|[m [34m|[m [33ma5aabcb[m http 404 and 500 now have styled pages
+[36m|[m [1;32m|[m[36m/[m [1;32m/[m [34m/[m  
+[36m|[m[36m/[m[1;32m|[m [1;32m|[m [34m|[m   
+* [1;32m|[m [1;32m|[m [34m|[m   [33m754d817[m Merge pull request #71 from crescendolll/back-button
+[1;32m|[m[1;34m\[m [1;32m\[m [1;32m\[m [34m\[m  
+[1;32m|[m [1;34m|[m[1;32m/[m [1;32m/[m [34m/[m  
+[1;32m|[m[1;32m/[m[1;34m|[m [1;32m|[m [34m|[m   
+[1;32m|[m * [1;32m|[m [34m|[m [33m1de6739[m back button added to the quizzes
+[1;32m|[m[1;32m/[m [1;32m/[m [34m/[m  
+[1;32m|[m * [34m|[m [33m4447012[m navbar colors and changing mind about moving navbar
+[1;32m|[m * [34m|[m   [33m4c41ae3[m Merge branch 'master' of github.com:crescendolll/quick-quizz into activenavbarcolor
+[1;32m|[m [1;35m|[m[1;32m\[m [34m\[m  
+[1;32m|[m [1;35m|[m[1;32m/[m [34m/[m  
+[1;32m|[m[1;32m/[m[1;35m|[m [34m|[m   
+[1;32m|[m * [34m|[m [33ma5544d5[m progress
+[1;32m|[m [1;36m|[m * [33md6a809e[m added glowing function to buttons
+[1;32m|[m [1;36m|[m[1;32m/[m  
+[1;32m|[m[1;32m/[m[1;36m|[m   
+* [1;36m|[m [33m04d292b[m Revert "Merge pull request #70 from crescendolll/prod-checklist"
+[1;36m|[m[1;36m/[m  
+*   [33m3c60d9e[m Merge pull request #70 from crescendolll/prod-checklist
+[31m|[m[32m\[m  
+[31m|[m * [33m56648df[m added meta tags, title, favicon
+* [32m|[m   [33m8d9572f[m Merge pull request #69 from crescendolll/dynamic-background
+[32m|[m[34m\[m [32m\[m  
+[32m|[m [34m|[m[32m/[m  
+[32m|[m[32m/[m[34m|[m   
+[32m|[m * [33me9ce0f8[m background dynamic, fixed a mistake too
+[32m|[m * [33mc09bcca[m background is dynamic
+[32m|[m * [33m203463c[m background smoother and dynamic, some other small styling adjustments
+[32m|[m[32m/[m  
+*   [33m788c9b8[m Merge pull request #67 from crescendolll/homepage-donut-buttonisation
+[35m|[m[36m\[m  
+[35m|[m * [33m39f21bd[m donut buttonised and background in login page fixed
+[35m|[m[35m/[m  
+*   [33m1ee6041[m Merge pull request #65 from crescendolll/navbuttoncolor
+[1;31m|[m[1;32m\[m  
+[1;31m|[m *   [33m336a015[m Merge branch 'master' of github.com:crescendolll/quick-quizz into navbuttoncolor
+[1;31m|[m [1;33m|[m[1;34m\[m  
+[1;31m|[m * [1;34m|[m [33md440f49[m done button movig to the right
+[1;31m|[m * [1;34m|[m   [33ma0b8861[m Merge branch 'master' of github.com:crescendolll/quick-quizz into navbuttoncolor
+[1;31m|[m [1;35m|[m[1;36m\[m [1;34m\[m  
+[1;31m|[m * [1;36m|[m [1;34m|[m [33m3a6ab5e[m working on buttons to change color if active
+[1;31m|[m * [1;36m|[m [1;34m|[m   [33m920ec8a[m Merge branch 'master' of github.com:crescendolll/quick-quizz into navbuttoncolor
+[1;31m|[m [31m|[m[32m\[m [1;36m\[m [1;34m\[m  
+* [31m|[m [32m\[m [1;36m\[m [1;34m\[m   [33m6a511e7[m Merge pull request #66 from crescendolll/improve-quiz-submit
+[33m|[m[34m\[m [31m\[m [32m\[m [1;36m\[m [1;34m\[m  
+[33m|[m * [31m\[m [32m\[m [1;36m\[m [1;34m\[m   [33m1bb2a7c[m conflicts resolved
+[33m|[m [35m|[m[33m\[m [31m\[m [32m\[m [1;36m\[m [1;34m\[m  
+[33m|[m [35m|[m[33m/[m [31m/[m [32m/[m [1;36m/[m [1;34m/[m  
+[33m|[m[33m/[m[35m|[m [31m|[m [32m|[m [1;36m|[m [1;34m|[m   
+* [35m|[m [31m|[m [32m|[m [1;36m|[m [1;34m|[m   [33m1fc4b6b[m Merge pull request #64 from crescendolll/progress-bar
+[1;34m|[m[1;32m\[m [35m\[m [31m\[m [32m\[m [1;36m\[m [1;34m\[m  
+[1;34m|[m [1;32m|[m[1;34m_[m[35m|[m[1;34m_[m[31m|[m[1;34m_[m[32m|[m[1;34m_[m[1;36m|[m[1;34m/[m  
+[1;34m|[m[1;34m/[m[1;32m|[m [35m|[m [31m|[m [32m|[m [1;36m|[m   
+[1;34m|[m * [35m|[m [31m|[m [32m|[m [1;36m|[m [33md9a9481[m added progress bar
+[1;34m|[m[1;34m/[m [35m/[m [31m/[m [32m/[m [1;36m/[m  
+[1;34m|[m * [31m/[m [32m/[m [1;36m/[m [33mc9bb371[m submit is better
+[1;34m|[m[1;34m/[m [31m/[m [32m/[m [1;36m/[m  
+* [31m|[m [32m|[m [1;36m|[m   [33m08a4ce6[m Merge pull request #63 from crescendolll/some-generation-fixes
+[1;36m|[m[1;34m\[m [31m\[m [32m\[m [1;36m\[m  
+[1;36m|[m [1;34m|[m[1;36m_[m[31m|[m[1;36m_[m[32m|[m[1;36m/[m  
+[1;36m|[m[1;36m/[m[1;34m|[m [31m|[m [32m|[m   
+[1;36m|[m * [31m|[m [32m|[m [33m7d046bb[m removed '!'
+* [1;34m|[m [31m|[m [32m|[m   [33m02f6963[m Merge pull request #62 from crescendolll/clean-up
+[1;35m|[m[1;36m\[m [1;34m\[m [31m\[m [32m\[m  
+[1;35m|[m * [1;34m|[m [31m|[m [32m|[m [33m8e59a07[m made the navbar disapear when taking a new quiz
+[1;35m|[m * [1;34m|[m [31m|[m [32m|[m [33md9fb952[m cleaned up lottie files
+* [1;36m|[m [1;34m|[m [31m|[m [32m|[m   [33mbb87f9b[m Merge pull request #61 from crescendolll/some-generation-fixes
+[31m|[m[1;34m\[m [1;36m\[m [1;34m\[m [31m\[m [32m\[m  
+[31m|[m [1;34m|[m [1;36m|[m[1;34m/[m [31m/[m [32m/[m  
+[31m|[m [1;34m|[m[1;34m/[m[1;36m|[m [31m|[m [32m|[m   
+[31m|[m * [1;36m|[m [31m|[m [32m|[m [33m95cd883[m some quiz generation fixes
+[31m|[m [32m|[m [1;36m|[m[32m_[m[31m|[m[32m/[m  
+[31m|[m [32m|[m[32m/[m[1;36m|[m [31m|[m   
+* [32m|[m [1;36m|[m [31m|[m   [33m523c9f1[m Merge pull request #59 from crescendolll/presenting-seeds
+[33m|[m[34m\[m [32m\[m [1;36m\[m [31m\[m  
+[33m|[m * [32m|[m [1;36m|[m [31m|[m [33m8ac7f93[m added quizzes for architecture & garbage collection
+[33m|[m * [32m|[m [1;36m|[m [31m|[m [33mfa31641[m implemented
+[33m|[m [1;36m|[m [32m|[m[1;36m/[m [31m/[m  
+[33m|[m [1;36m|[m[1;36m/[m[32m|[m [31m|[m   
+* [1;36m|[m [32m|[m [31m|[m   [33md6f5124[m Merge pull request #60 from crescendolll/styligtouchups
+[32m|[m[31m\[m [1;36m\[m [32m\[m [31m\[m  
+[32m|[m [31m|[m[32m_[m[1;36m|[m[32m/[m [31m/[m  
+[32m|[m[32m/[m[31m|[m [1;36m|[m [31m/[m   
+[32m|[m [31m|[m [1;36m|[m[31m/[m    
+[32m|[m [31m|[m[31m/[m[1;36m|[m     
+[32m|[m * [1;36m|[m [33m445e76b[m finished shadow effect on navbar buttons
+[32m|[m [1;36m|[m[1;36m/[m  
+* [1;36m|[m   [33md38de30[m Merge pull request #58 from crescendolll/small-frontend-adjustments
+[1;36m|[m[1;32m\[m [1;36m\[m  
+[1;36m|[m [1;32m|[m[1;36m/[m  
+[1;36m|[m[1;36m/[m[1;32m|[m   
+[1;36m|[m * [33mf329965[m a bunch of frontend fixes for fonts, margins
+[1;36m|[m[1;36m/[m  
+*   [33mc8a5333[m Merge pull request #57 from crescendolll/answer-display
+[1;33m|[m[1;34m\[m  
+[1;33m|[m * [33m5c92a0e[m update
+[1;33m|[m *   [33m45b0d77[m Merge branch 'master' into answer-display
+[1;33m|[m [1;35m|[m[1;33m\[m  
+[1;33m|[m [1;35m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[1;35m|[m   
+* [1;35m|[m   [33m90dfca1[m Merge pull request #56 from crescendolll/logout
+[31m|[m[32m\[m [1;35m\[m  
+[31m|[m * [1;35m|[m [33md34a920[m logout works
+[31m|[m[31m/[m [1;35m/[m  
+[31m|[m * [33med8bd1f[m added styling to answer pop up
+[31m|[m * [33m52a055f[m added color to profile percentage
+[31m|[m *   [33m49a5025[m merge completed
+[31m|[m [33m|[m[31m\[m  
+[31m|[m [33m|[m[31m/[m  
+[31m|[m[31m/[m[33m|[m   
+* [33m|[m   [33mc7c8834[m Merge pull request #54 from crescendolll/profile-page-styling
+[35m|[m[36m\[m [33m\[m  
+[35m|[m * [33m|[m [33m6a76f1a[m profile page text color fixed
+[35m|[m[35m/[m [33m/[m  
+* [33m|[m   [33ma2d8bc2[m Merge pull request #53 from crescendolll/input-page-styling
+[1;31m|[m[1;32m\[m [33m\[m  
+[1;31m|[m * [33m|[m [33m95848fd[m styling for the input page updated
+[1;31m|[m[1;31m/[m [33m/[m  
+* [33m|[m   [33m987706d[m Merge pull request #52 from crescendolll/home-list-v3
+[1;33m|[m[1;34m\[m [33m\[m  
+[1;33m|[m * [33m|[m [33mc313aff[m home quizlist is displaying 0% for own untaken lists
+[1;33m|[m[1;33m/[m [33m/[m  
+* [33m|[m   [33m7f0f710[m Merge pull request #51 from crescendolll/adjust-seeds
+[1;35m|[m[1;36m\[m [33m\[m  
+[1;35m|[m * [33m|[m [33m546e2ff[m impl
+[1;35m|[m[1;35m/[m [33m/[m  
+* [33m|[m   [33m98cc6c2[m Merge pull request #50 from crescendolll/reccomendations
+[31m|[m[32m\[m [33m\[m  
+[31m|[m * [33m|[m [33md4cfbf3[m recommendation pop up in the result page works
+[31m|[m * [33m|[m [33m4987dbf[m recommendations show up on the results page
+[31m|[m * [33m|[m [33m453e014[m reccomendations working in backend
+[31m|[m * [33m|[m   [33meb3bf9b[m Merge branch 'master' into reccomendations
+[31m|[m [33m|[m[34m\[m [33m\[m  
+[31m|[m * [34m|[m [33m|[m [33m5e83223[m setup for recommendations begun
+* [34m|[m [34m|[m [33m|[m   [33m8cb54c4[m Merge pull request #48 from crescendolll/Styling
+[35m|[m[36m\[m [34m\[m [34m\[m [33m\[m  
+[35m|[m * [34m\[m [34m\[m [33m\[m   [33mfc74364[m Merge branch 'master' into Styling
+[35m|[m [1;31m|[m[35m\[m [34m\[m [34m\[m [33m\[m  
+[35m|[m [1;31m|[m[35m/[m [34m/[m [34m/[m [33m/[m  
+[35m|[m[35m/[m[1;31m|[m [34m|[m [34m|[m [33m|[m   
+* [1;31m|[m [34m|[m [34m|[m [33m|[m   [33m9773763[m Merge pull request #49 from crescendolll/quizlist-incl-taken
+[1;33m|[m[1;34m\[m [1;31m\[m [34m\[m [34m\[m [33m\[m  
+[1;33m|[m * [1;31m|[m [34m|[m [34m|[m [33m|[m [33m2383189[m implemented
+[1;33m|[m * [1;31m|[m [34m|[m [34m|[m [33m|[m   [33m8547798[m Merge branch 'master' into quizlist-incl-taken
+[1;33m|[m [1;35m|[m[1;36m\[m [1;31m\[m [34m\[m [34m\[m [33m\[m  
+[1;33m|[m * [1;36m|[m [1;31m|[m [34m|[m [34m|[m [33m|[m [33mfc34f53[m pre pull
+* [1;36m|[m [1;36m|[m [1;31m|[m [34m|[m [34m|[m [33m|[m   [33mdafeb0b[m Merge pull request #47 from crescendolll/Styling
+[1;36m|[m[32m\[m [1;36m\[m [1;36m\[m [1;31m\[m [34m\[m [34m\[m [33m\[m  
+[1;36m|[m [32m|[m[1;36m_[m[1;36m|[m[1;36m/[m [1;31m/[m [34m/[m [34m/[m [33m/[m  
+[1;36m|[m[1;36m/[m[32m|[m [1;36m|[m [1;31m|[m [34m|[m [34m|[m [33m|[m   
+[1;36m|[m * [1;36m|[m [1;31m|[m [34m|[m [34m|[m [33m|[m   [33m8c7fe9d[m Merge branch 'master' into Styling
+[1;36m|[m [33m|[m[1;36m\[m [1;36m\[m [1;31m\[m [34m\[m [34m\[m [33m\[m  
+[1;36m|[m [33m|[m[1;36m/[m [1;36m/[m [1;31m/[m [34m/[m [34m/[m [33m/[m  
+[1;36m|[m[1;36m/[m[33m|[m [1;36m|[m [1;31m|[m [34m|[m [34m|[m [33m|[m   
+[1;36m|[m [33m|[m [1;36m|[m * [34m|[m [34m|[m [33m|[m [33mc1970e5[m cheacking button on touch-mobile device
+[1;36m|[m [33m|[m [1;36m|[m[33m/[m [34m/[m [34m/[m [33m/[m  
+[1;36m|[m [33m|[m[33m/[m[1;36m|[m [34m|[m [34m|[m [33m|[m   
+[1;36m|[m * [1;36m|[m [34m|[m [34m|[m [33m|[m [33m1745a90[m fixing styling
+[1;36m|[m [1;36m|[m[1;36m/[m [34m/[m [34m/[m [33m/[m  
+[1;36m|[m [1;36m|[m [34m|[m [34m|[m * [33m6de9289[m working on answer display
+[1;36m|[m [1;36m|[m[1;36m_[m[34m|[m[1;36m_[m[34m|[m[1;36m/[m  
+[1;36m|[m[1;36m/[m[1;36m|[m [34m|[m [34m|[m   
+* [1;36m|[m [34m|[m [34m|[m   [33mdcba532[m Merge pull request #46 from crescendolll/update-comment
+[1;36m|[m[36m\[m [1;36m\[m [34m\[m [34m\[m  
+[1;36m|[m [36m|[m[1;36m/[m [34m/[m [34m/[m  
+[1;36m|[m[1;36m/[m[36m|[m [34m|[m [34m|[m   
+[1;36m|[m * [34m|[m [34m|[m [33m07017c7[m added take a quiz button and updated the feed
+[1;36m|[m * [34m|[m [34m|[m [33me1f6481[m made the like icon a toggle action and removed the message icon
+[1;36m|[m [34m|[m [34m|[m[34m/[m  
+[1;36m|[m [34m|[m[34m/[m[34m|[m   
+* [34m|[m [34m|[m   [33m1a2cab5[m Merge pull request #45 from crescendolll/imgfix
+[34m|[m[1;32m\[m [34m\[m [34m\[m  
+[34m|[m [1;32m|[m[34m/[m [34m/[m  
+[34m|[m[34m/[m[1;32m|[m [34m|[m   
+[34m|[m * [34m|[m   [33m07d48cb[m Merge branch 'master' into imgfix
+[34m|[m [1;33m|[m[34m\[m [34m\[m  
+[34m|[m [1;33m|[m[34m/[m [34m/[m  
+[34m|[m[34m/[m[1;33m|[m [34m|[m   
+* [1;33m|[m [34m|[m   [33m3d3d0f7[m Merge pull request #44 from crescendolll/set-result-fix
+[1;35m|[m[1;36m\[m [1;33m\[m [34m\[m  
+[1;35m|[m * [1;33m|[m [34m|[m [33m4f1e9e0[m results now calculated correctly and model works
+* [1;36m|[m [1;33m|[m [34m|[m   [33mced6416[m Merge pull request #43 from crescendolll/adding-events
+[34m|[m[32m\[m [1;36m\[m [1;33m\[m [34m\[m  
+[34m|[m [32m|[m[34m_[m[1;36m|[m[34m_[m[1;33m|[m[34m/[m  
+[34m|[m[34m/[m[32m|[m [1;36m|[m [1;33m|[m   
+[34m|[m * [1;36m|[m [1;33m|[m [33ma779fac[m Update home.html.erb
+[34m|[m * [1;36m|[m [1;33m|[m [33m68299a1[m added and completed user feed showing new quizzes and 100% quiz results
+[34m|[m * [1;36m|[m [1;33m|[m   [33mbdb3850[m Merge branch 'master' into adding-events
+[34m|[m [33m|[m[34m\[m [1;36m\[m [1;33m\[m  
+[34m|[m * [34m|[m [1;36m|[m [1;33m|[m [33m20f8d74[m added new quizzes to the user quiz feed
+[34m|[m * [34m|[m [1;36m|[m [1;33m|[m   [33m689e73c[m resolved conflicts
+[34m|[m [35m|[m[1;36m\[m [34m\[m [1;36m\[m [1;33m\[m  
+[34m|[m [35m|[m [1;36m|[m [34m|[m[1;36m/[m [1;33m/[m  
+[34m|[m [35m|[m [1;36m|[m[1;36m/[m[34m|[m [1;33m|[m   
+[34m|[m * [1;36m|[m [34m|[m [1;33m|[m [33m46b7b0d[m changed class
+[34m|[m * [1;36m|[m [34m|[m [1;33m|[m [33m33a2ef7[m added top quiz results to display in user feed
+[34m|[m [36m|[m [1;36m|[m [34m|[m * [33me9a5928[m fixed img-uploaded
+[34m|[m [36m|[m[34m_[m[1;36m|[m[34m_[m[34m|[m[34m/[m  
+[34m|[m[34m/[m[36m|[m [1;36m|[m [34m|[m   
+* [36m|[m [1;36m|[m [34m|[m   [33md2890a6[m Merge pull request #42 from crescendolll/donut-width-fix
+[1;31m|[m[1;32m\[m [36m\[m [1;36m\[m [34m\[m  
+[1;31m|[m * [36m|[m [1;36m|[m [34m|[m [33maf9745c[m donut min width fixed
+[1;31m|[m[1;31m/[m [36m/[m [1;36m/[m [34m/[m  
+* [36m|[m [1;36m|[m [34m|[m   [33m77720b3[m Merge pull request #41 from crescendolll/loading-styling
+[34m|[m[1;34m\[m [36m\[m [1;36m\[m [34m\[m  
+[34m|[m [1;34m|[m[34m_[m[36m|[m[34m_[m[1;36m|[m[34m/[m  
+[34m|[m[34m/[m[1;34m|[m [36m|[m [1;36m|[m   
+[34m|[m * [36m|[m [1;36m|[m [33mbaccfaf[m loader finish
+[34m|[m * [36m|[m [1;36m|[m [33me527ea6[m styling to confirm
+* [1;34m|[m [36m|[m [1;36m|[m   [33m37cc5e1[m Merge pull request #40 from crescendolll/quiz-styling
+[1;35m|[m[1;36m\[m [1;34m\[m [36m\[m [1;36m\[m  
+[1;35m|[m * [1;34m|[m [36m|[m [1;36m|[m [33m3cbb797[m styling fixes in the quiz and quizz list
+[1;35m|[m[1;35m/[m [1;34m/[m [36m/[m [1;36m/[m  
+* [1;34m|[m [36m|[m [1;36m|[m   [33m670a23d[m Merge pull request #39 from crescendolll/quizzlist-frontend
+[1;34m|[m[32m\[m [1;34m\[m [36m\[m [1;36m\[m  
+[1;34m|[m [32m|[m[1;34m/[m [36m/[m [1;36m/[m  
+[1;34m|[m[1;34m/[m[32m|[m [36m|[m [1;36m|[m   
+[1;34m|[m * [36m|[m [1;36m|[m [33m7b76a70[m fixed and improved styling for the quizz list
+[1;34m|[m[1;34m/[m [36m/[m [1;36m/[m  
+* [36m|[m [1;36m|[m   [33mb301b21[m Merge pull request #38 from crescendolll/shadow-click-fix
+[1;36m|[m[34m\[m [36m\[m [1;36m\[m  
+[1;36m|[m [34m|[m[1;36m_[m[36m|[m[1;36m/[m  
+[1;36m|[m[1;36m/[m[34m|[m [36m|[m   
+[1;36m|[m * [36m|[m [33m5df5f53[m can click stuff under the shadow
+[1;36m|[m[1;36m/[m [36m/[m  
+* [36m|[m   [33m4e4d8cc[m Merge pull request #37 from crescendolll/loading-styling
+[35m|[m[36m\[m [36m\[m  
+[35m|[m * [36m\[m   [33m687e69d[m Merge branch 'master' into loading-styling
+[35m|[m [1;31m|[m[35m\[m [36m\[m  
+[35m|[m [1;31m|[m[35m/[m [36m/[m  
+[35m|[m[35m/[m[1;31m|[m [36m|[m   
+* [1;31m|[m [36m|[m   [33m44256ae[m Merge pull request #36 from crescendolll/frontend-redesign
+[1;33m|[m[1;34m\[m [1;31m\[m [36m\[m  
+[1;33m|[m * [1;31m\[m [36m\[m   [33m989682c[m resolved conflicts
+[1;33m|[m [1;35m|[m[1;33m\[m [1;31m\[m [36m\[m  
+[1;33m|[m [1;35m|[m[1;33m/[m [1;31m/[m [36m/[m  
+[1;33m|[m[1;33m/[m[1;35m|[m [1;31m|[m [36m|[m   
+* [1;35m|[m [1;31m|[m [36m|[m   [33m166dcc0[m Merge pull request #35 from crescendolll/duplicate-instances-bugfix
+[36m|[m[32m\[m [1;35m\[m [1;31m\[m [36m\[m  
+[36m|[m [32m|[m[36m_[m[1;35m|[m[36m_[m[1;31m|[m[36m/[m  
+[36m|[m[36m/[m[32m|[m [1;35m|[m [1;31m|[m   
+[36m|[m * [1;35m|[m [1;31m|[m [33ma9f0a17[m Update index.html.erb
+[36m|[m * [1;35m|[m [1;31m|[m [33m446c92c[m merged and adjusted
+[36m|[m * [1;35m|[m [1;31m|[m   [33m9b84b07[m merged
+[36m|[m [33m|[m[36m\[m [1;35m\[m [1;31m\[m  
+[36m|[m [33m|[m[36m/[m [1;35m/[m [1;31m/[m  
+[36m|[m[36m/[m[33m|[m [1;35m|[m [1;31m|[m   
+[36m|[m * [1;35m|[m [1;31m|[m [33mde2f242[m impl adjusted models and view accordingly
+[36m|[m * [1;35m|[m [1;31m|[m [33m89fc39f[m delete quiz now working
+[36m|[m [34m|[m * [1;31m|[m [33mdd06926[m styling of mostly the homepage
+[36m|[m [34m|[m * [1;31m|[m [33m26487de[m frontend changes
+[36m|[m [34m|[m * [1;31m|[m [33m414406f[m new look, new colors, new footer
+[36m|[m [34m|[m [34m|[m * [33mdfd6f70[m styling and pop up done
+[36m|[m [34m|[m[36m_[m[34m|[m[36m/[m  
+[36m|[m[36m/[m[34m|[m [34m|[m   
+* [34m|[m [34m|[m   [33ma5b8396[m Merge pull request #34 from crescendolll/donuts
+[35m|[m[36m\[m [34m\[m [34m\[m  
+[35m|[m * [34m|[m [34m|[m [33mb1a3483[m styling fixed
+[35m|[m [34m|[m[34m/[m [34m/[m  
+* [34m|[m [34m|[m   [33m8f8d1ee[m Merge pull request #33 from crescendolll/backend
+[34m|[m[1;32m\[m [34m\[m [34m\[m  
+[34m|[m [1;32m|[m[34m/[m [34m/[m  
+[34m|[m[34m/[m[1;32m|[m [34m|[m   
+[34m|[m * [34m|[m [33m1f02f0f[m added loading pop up
+[34m|[m * [34m|[m   [33m861c4f0[m Merge branch 'master' into backend
+[34m|[m [1;33m|[m[34m\[m [34m\[m  
+[34m|[m [1;33m|[m[34m/[m [34m/[m  
+[34m|[m[34m/[m[1;33m|[m [34m|[m   
+* [1;33m|[m [34m|[m [33mf256e85[m libarchives adjust
+* [1;33m|[m [34m|[m [33mb56f3c0[m adjusted aptfile
+* [1;33m|[m [34m|[m [33m7f29a29[m Trigger Heroku deploy
+* [1;33m|[m [34m|[m [33m16d1fbf[m aptfile added
+* [1;33m|[m [34m|[m   [33m572253f[m Merge pull request #32 from crescendolll/clean-up
+[34m|[m[1;36m\[m [1;33m\[m [34m\[m  
+[34m|[m [1;36m|[m[34m_[m[1;33m|[m[34m/[m  
+[34m|[m[34m/[m[1;36m|[m [1;33m|[m   
+[34m|[m * [1;33m|[m [33m0b16c4e[m removed comments
+[34m|[m[34m/[m [1;33m/[m  
+* [1;33m|[m   [33mb333401[m Merge pull request #31 from crescendolll/tesseract-setup
+[31m|[m[32m\[m [1;33m\[m  
+[31m|[m * [1;33m|[m [33m635f629[m tesseract
+[31m|[m[31m/[m [1;33m/[m  
+* [1;33m|[m [33mf776ff3[m troubleshooting img processing
+* [1;33m|[m [33m28f60d9[m troubleshooting img processing
+[32m|[m * [33m8fff182[m added loading controller
+[32m|[m *   [33m1c6aeb1[m Merge branch 'master' into backend
+[32m|[m [33m|[m[32m\[m  
+[32m|[m [33m|[m[32m/[m  
+[32m|[m[32m/[m[33m|[m   
+* [33m|[m   [33m4c68519[m Merge branch 'master' of github.com:crescendolll/quick-quizz
+[35m|[m[36m\[m [33m\[m  
+[35m|[m * [33m\[m   [33m569a0c0[m Merge pull request #30 from crescendolll/saturdayFever
+[35m|[m [1;31m|[m[1;32m\[m [33m\[m  
+[35m|[m [1;31m|[m * [33m|[m [33m6c8b18e[m stling for input
+* [1;31m|[m [1;32m|[m [33m|[m [33m2f31e2b[m adjusted prod setup for cloudinary
+[1;31m|[m[1;31m/[m [1;32m/[m [33m/[m  
+[1;31m|[m [1;32m|[m *   [33m2d80741[m Merge branch 'master' into backend
+[1;31m|[m [1;32m|[m [1;33m|[m[1;31m\[m  
+[1;31m|[m [1;32m|[m[1;31m_[m[1;33m|[m[1;31m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;33m|[m   
+* [1;32m|[m [1;33m|[m [33me754d1b[m background and scroll fix
+[1;32m|[m[1;32m/[m [1;33m/[m  
+* [1;33m|[m   [33m679c929[m Merge pull request #29 from crescendolll/styling-cleanup
+[1;35m|[m[1;36m\[m [1;33m\[m  
+[1;35m|[m * [1;33m|[m [33mae8e844[m front end clean up and organisation
+[1;35m|[m[1;35m/[m [1;33m/[m  
+* [1;33m|[m [33me2bbdb3[m fixes to the bug generator
+[1;36m|[m *   [33mfc491a5[m Merge branch 'master' into update-donut
+[1;36m|[m [31m|[m[1;36m\[m  
+[1;36m|[m [31m|[m[1;36m/[m  
+[1;36m|[m[1;36m/[m[31m|[m   
+* [31m|[m   [33m6fdbcc1[m Merge pull request #28 from crescendolll/background-fix
+[33m|[m[34m\[m [31m\[m  
+[33m|[m * [31m|[m [33mf6cb2cc[m background streching to the bottom on homepage at leaast
+* [34m|[m [31m|[m   [33m8f3e80d[m Merge pull request #27 from crescendolll/input-triggers-quiz-generate
+[35m|[m[36m\[m [34m\[m [31m\[m  
+[35m|[m * [34m|[m [31m|[m [33md11fd5e[m impl quiz generation based on input
+* [36m|[m [34m|[m [31m|[m   [33mb58d4b5[m Merge pull request #26 from crescendolll/svg
+[34m|[m[1;32m\[m [36m\[m [34m\[m [31m\[m  
+[34m|[m [1;32m|[m[34m_[m[36m|[m[34m/[m [31m/[m  
+[34m|[m[34m/[m[1;32m|[m [36m|[m [31m|[m   
+[34m|[m * [36m|[m [31m|[m [33mbc8b589[m svg
+* [1;32m|[m [36m|[m [31m|[m   [33m86854c6[m Merge pull request #24 from crescendolll/homepage-styling
+[1;33m|[m[1;34m\[m [1;32m\[m [36m\[m [31m\[m  
+[1;33m|[m * [1;32m|[m [36m|[m [31m|[m [33me66ff48[m homepage with fake data created
+[1;33m|[m [36m|[m [1;32m|[m[36m/[m [31m/[m  
+[1;33m|[m [36m|[m[36m/[m[1;32m|[m [31m|[m   
+* [36m|[m [1;32m|[m [31m|[m   [33m43634da[m Merge pull request #23 from crescendolll/styling
+[1;35m|[m[1;32m\[m [36m\[m [1;32m\[m [31m\[m  
+[1;35m|[m [1;32m|[m [36m|[m[1;32m/[m [31m/[m  
+[1;35m|[m [1;32m|[m[1;32m/[m[36m|[m [31m|[m   
+[1;35m|[m * [36m|[m [31m|[m [33ma29918c[m styling ok..
+[1;35m|[m [36m|[m[36m/[m [31m/[m  
+* [36m|[m [31m|[m   [33ma31d8e7[m Merge pull request #22 from crescendolll/update-donut
+[36m|[m[32m\[m [36m\[m [31m\[m  
+[36m|[m [32m|[m[36m/[m [31m/[m  
+[36m|[m[36m/[m[32m|[m [31m|[m   
+[36m|[m [32m|[m * [33mf2bfb19[m final push
+[36m|[m [32m|[m * [33mdf2b510[m help
+[36m|[m [32m|[m[32m/[m  
+[36m|[m * [33m9d8d72d[m fixed and updated donut bar on the quiz index page needs styling
+[36m|[m[36m/[m  
+*   [33mb808220[m Merge pull request #20 from crescendolll/quiz-frontend-fixes
+[33m|[m[34m\[m  
+[33m|[m * [33mb43017e[m frontend adjustments for the quiz and the quiz list
+* [34m|[m   [33mf8cc741[m Merge pull request #17 from crescendolll/link-pages
+[34m|[m[36m\[m [34m\[m  
+[34m|[m [36m|[m[34m/[m  
+[34m|[m[34m/[m[36m|[m   
+[34m|[m *   [33m7d1be20[m fixed conflicts in results page
+[34m|[m [1;31m|[m[34m\[m  
+[34m|[m [1;31m|[m[34m/[m  
+[34m|[m[34m/[m[1;31m|[m   
+* [1;31m|[m   [33m7a0161d[m Merge pull request #19 from crescendolll/results-page
+[1;33m|[m[1;34m\[m [1;31m\[m  
+[1;33m|[m * [1;31m|[m [33m694b483[m result page is functional
+* [1;34m|[m [1;31m|[m   [33m718198b[m Merge pull request #18 from crescendolll/HomeNav
+[1;34m|[m[1;36m\[m [1;34m\[m [1;31m\[m  
+[1;34m|[m [1;36m|[m[1;34m/[m [1;31m/[m  
+[1;34m|[m[1;34m/[m[1;36m|[m [1;31m|[m   
+[1;34m|[m * [1;31m|[m [33m204ccb1[m changing variables
+[1;34m|[m[1;34m/[m [1;31m/[m  
+[1;34m|[m * [33m03ad925[m adjusted links and added links, program flow now working
+[1;34m|[m *   [33m18ff3ba[m Merge branch 'master' into link-pages
+[1;34m|[m [31m|[m[1;34m\[m  
+[1;34m|[m [31m|[m[1;34m/[m  
+[1;34m|[m[1;34m/[m[31m|[m   
+* [31m|[m   [33mabaf5e8[m Merge pull request #16 from crescendolll/quiz-frontend
+[33m|[m[34m\[m [31m\[m  
+[33m|[m * [31m\[m   [33m1875499[m Merge branch 'master' into quiz-frontend
+[33m|[m [35m|[m[33m\[m [31m\[m  
+[33m|[m [35m|[m[33m/[m [31m/[m  
+[33m|[m[33m/[m[35m|[m [31m|[m   
+* [35m|[m [31m|[m   [33mbc5cc64[m Merge pull request #15 from crescendolll/logo
+[1;31m|[m[1;32m\[m [35m\[m [31m\[m  
+[1;31m|[m * [35m|[m [31m|[m [33m2b34c53[m logo and styling
+[1;31m|[m [1;32m|[m * [31m|[m [33mab29493[m result dounut works, and calculations of the result were changed to percentage
+[1;31m|[m [1;32m|[m * [31m|[m   [33m21ed5ac[m Merge branch 'master' into quiz-frontend need the dounut chart ```
+[1;31m|[m [1;32m|[m [1;33m|[m[1;31m\[m [31m\[m  
+[1;31m|[m [1;32m|[m[1;31m_[m[1;33m|[m[1;31m/[m [31m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;33m|[m [31m|[m   
+[1;31m|[m [1;32m|[m * [31m|[m [33m0c2d12a[m midway save, need the master
+[1;31m|[m [1;32m|[m [1;34m|[m * [33mc49148b[m added appropriate links or placeholders for program flow
+[1;31m|[m [1;32m|[m [1;34m|[m *   [33mbedb205[m Merge branch 'master' into link-pages
+[1;31m|[m [1;32m|[m [1;34m|[m [1;35m|[m[1;31m\[m  
+[1;31m|[m [1;32m|[m[1;31m_[m[1;34m|[m[1;31m_[m[1;35m|[m[1;31m/[m  
+[1;31m|[m[1;31m/[m[1;32m|[m [1;34m|[m [1;35m|[m   
+* [1;32m|[m [1;34m|[m [1;35m|[m   [33m832d40f[m Merge pull request #14 from crescendolll/add-quizlist
+[1;32m|[m[32m\[m [1;32m\[m [1;34m\[m [1;35m\[m  
+[1;32m|[m [32m|[m[1;32m/[m [1;34m/[m [1;35m/[m  
+[1;32m|[m[1;32m/[m[32m|[m [1;34m|[m [1;35m|[m   
+[1;32m|[m * [1;34m|[m [1;35m|[m [33ma5d8c22[m Delete quit
+[1;32m|[m * [1;34m|[m [1;35m|[m   [33m07e05c5[m resolve conflicts
+[1;32m|[m [33m|[m[1;32m\[m [1;34m\[m [1;35m\[m  
+[1;32m|[m [33m|[m[1;32m/[m [1;34m/[m [1;35m/[m  
+[1;32m|[m[1;32m/[m[33m|[m [1;34m|[m [1;35m|[m   
+[1;32m|[m * [1;34m|[m [1;35m|[m [33ma13a9b3[m added background change to new quiz
+[1;32m|[m * [1;34m|[m [1;35m|[m   [33mf72ea5f[m Merge branch 'master' into add-quizlist
+[1;32m|[m [35m|[m[36m\[m [1;34m\[m [1;35m\[m  
+[1;32m|[m * [36m|[m [1;34m|[m [1;35m|[m [33m393408c[m added css to quizzes index
+[1;32m|[m * [36m|[m [1;34m|[m [1;35m|[m [33mb519656[m added quiz index needs CSS
+[1;32m|[m [36m|[m [36m|[m [1;34m|[m * [33ma081d1c[m pre pull commit
+[1;32m|[m [36m|[m[1;32m_[m[36m|[m[1;32m_[m[1;34m|[m[1;32m/[m  
+[1;32m|[m[1;32m/[m[36m|[m [36m|[m [1;34m|[m   
+* [36m|[m [36m|[m [1;34m|[m   [33me8c7ab1[m Merge pull request #13 from crescendolll/profile2
+[1;31m|[m[1;32m\[m [36m\[m [36m\[m [1;34m\[m  
+[1;31m|[m * [36m\[m [36m\[m [1;34m\[m   [33m1b823c0[m Merge branch 'master' into profile2
+[1;31m|[m [1;33m|[m[1;31m\[m [36m\[m [36m\[m [1;34m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m [36m/[m [36m/[m [1;34m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m [36m|[m [36m|[m [1;34m|[m   
+* [1;33m|[m [36m|[m [36m|[m [1;34m|[m   [33m885e172[m Merge pull request #12 from crescendolll/quiz-frontend
+[1;35m|[m[1;34m\[m [1;33m\[m [36m\[m [36m\[m [1;34m\[m  
+[1;35m|[m [1;34m|[m [1;33m|[m[1;34m_[m[36m|[m[1;34m_[m[36m|[m[1;34m/[m  
+[1;35m|[m [1;34m|[m[1;34m/[m[1;33m|[m [36m|[m [36m|[m   
+[1;35m|[m * [1;33m|[m [36m|[m [36m|[m [33m9fc5371[m fixed some color bugs
+[1;35m|[m[1;35m/[m [1;33m/[m [36m/[m [36m/[m  
+* [1;33m|[m [36m|[m [36m|[m   [33m7f2a503[m Merge pull request #11 from crescendolll/quiz-and-result-pages
+[36m|[m[32m\[m [1;33m\[m [36m\[m [36m\[m  
+[36m|[m [32m|[m[36m_[m[1;33m|[m[36m_[m[36m|[m[36m/[m  
+[36m|[m[36m/[m[32m|[m [1;33m|[m [36m|[m   
+[36m|[m * [1;33m|[m [36m|[m [33m8cebbb6[m general styling elements and styling for the quiz page
+[36m|[m[36m/[m [1;33m/[m [36m/[m  
+[36m|[m * [36m/[m [33me6f8025[m password changing
+[36m|[m[36m/[m [36m/[m  
+* [36m|[m   [33m7b48b4c[m Merge pull request #10 from crescendolll/profile
+[33m|[m[34m\[m [36m\[m  
+[33m|[m * [36m\[m   [33m907d34b[m Merge branch 'profile' of github.com:crescendolll/quick-quizz into profile
+[33m|[m [35m|[m[36m\[m [36m\[m  
+[33m|[m * [36m|[m [36m|[m [33m1f5d3da[m profile page
+[33m|[m * [36m|[m [36m|[m [33m4373280[m applying changing password feature
+* [36m|[m [36m|[m [36m|[m   [33m33a31ca[m Merge pull request #9 from crescendolll/quiz-setup
+[1;31m|[m[1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m * [36m\[m [36m\[m [36m\[m   [33m6302434[m Merge branch 'master' into quiz-setup
+[1;31m|[m [1;33m|[m[1;31m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m [36m|[m [36m|[m [36m|[m   
+* [1;33m|[m [36m|[m [36m|[m [36m|[m   [33m53abd69[m Merge pull request #6 from crescendolll/readme-v1
+[36m|[m[1;36m\[m [1;33m\[m [36m\[m [36m\[m [36m\[m  
+[36m|[m [1;36m|[m[36m_[m[1;33m|[m[36m_[m[36m|[m[36m_[m[36m|[m[36m/[m  
+[36m|[m[36m/[m[1;36m|[m [1;33m|[m [36m|[m [36m|[m   
+[36m|[m * [1;33m|[m [36m|[m [36m|[m [33m4ed8833[m Update README.md
+* [1;36m|[m [1;33m|[m [36m|[m [36m|[m   [33mc67f785[m Merge pull request #8 from crescendolll/tesseract
+[31m|[m[32m\[m [1;36m\[m [1;33m\[m [36m\[m [36m\[m  
+[31m|[m * [1;36m\[m [1;33m\[m [36m\[m [36m\[m   [33m4edd58c[m Merge branch 'master' into tesseract
+[31m|[m [33m|[m[31m\[m [1;36m\[m [1;33m\[m [36m\[m [36m\[m  
+[31m|[m [33m|[m[31m/[m [1;36m/[m [1;33m/[m [36m/[m [36m/[m  
+[31m|[m[31m/[m[33m|[m [1;36m|[m [1;33m|[m [36m|[m [36m|[m   
+* [33m|[m [1;36m|[m [1;33m|[m [36m|[m [36m|[m   [33md86d2c5[m Merge pull request #7 from crescendolll/profile
+[35m|[m[36m\[m [33m\[m [1;36m\[m [1;33m\[m [36m\[m [36m\[m  
+[35m|[m [36m|[m [33m|[m[36m_[m[1;36m|[m[36m_[m[1;33m|[m[36m_[m[36m|[m[36m/[m  
+[35m|[m [36m|[m[36m/[m[33m|[m [1;36m|[m [1;33m|[m [36m|[m   
+[35m|[m * [33m|[m [1;36m|[m [1;33m|[m [36m|[m [33m2551acd[m merge review Delete app/assets/images/home-button.svg:Zone.Identifier
+[35m|[m * [33m|[m [1;36m|[m [1;33m|[m [36m|[m [33mf61bd83[m merge review _sign-up.scss
+[35m|[m [36m|[m [33m|[m[36m_[m[1;36m|[m[36m_[m[1;33m|[m[36m/[m  
+[35m|[m [36m|[m[36m/[m[33m|[m [1;36m|[m [1;33m|[m   
+[35m|[m * [33m|[m [1;36m|[m [1;33m|[m [33m186e624[m profile page base
+* [36m|[m [33m|[m [1;36m|[m [1;33m|[m   [33m13381a6[m Merge pull request #5 from crescendolll/seeds-v1
+[36m|[m[1;32m\[m [36m\[m [33m\[m [1;36m\[m [1;33m\[m  
+[36m|[m [1;32m|[m[36m/[m [33m/[m [1;36m/[m [1;33m/[m  
+[36m|[m[36m/[m[1;32m|[m [33m|[m [1;36m|[m [1;33m|[m   
+[36m|[m * [33m|[m [1;36m|[m [1;33m|[m [33mcb62bc7[m forgot setting the quiz result
+[36m|[m * [33m|[m [1;36m|[m [1;33m|[m [33m8f28677[m seeds created with 5 quizzes, 20 users, second user owns 2 quizzes, has taken one
+[36m|[m[36m/[m [33m/[m [1;36m/[m [1;33m/[m  
+[36m|[m * [1;36m|[m [1;33m|[m [33mc87dee4[m added text input to user input
+[36m|[m * [1;36m|[m [1;33m|[m [33m38ff3aa[m resolve conflicts
+[36m|[m * [1;36m|[m [1;33m|[m   [33m5bde2c0[m resolve conflicts
+[36m|[m [1;33m|[m[36m\[m [1;36m\[m [1;33m\[m  
+[36m|[m [1;33m|[m[36m/[m [1;36m/[m [1;33m/[m  
+[36m|[m[36m/[m[1;33m|[m [1;36m|[m [1;33m|[m   
+* [1;33m|[m [1;36m|[m [1;33m|[m   [33m573cc63[m Merge pull request #3 from crescendolll/login
+[1;35m|[m[1;36m\[m [1;33m\[m [1;36m\[m [1;33m\[m  
+[1;35m|[m * [1;33m|[m [1;36m|[m [1;33m|[m [33mf560652[m login styling finish need to check if navbar stays or not
+[1;35m|[m [1;36m|[m * [1;36m|[m [1;33m|[m [33mb4c9f29[m added tesseract and its working
+[1;35m|[m [1;36m|[m [1;36m|[m [1;36m|[m * [33m90f0913[m updated one file
+[1;35m|[m [1;36m|[m [1;36m|[m [1;36m|[m * [33mae14fa2[m quiz is functioning, provides a result, answers are displayed one after the other
+[1;35m|[m [1;36m|[m[1;35m_[m[1;36m|[m[1;35m_[m[1;36m|[m[1;35m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m [1;36m|[m [1;36m|[m   
+* [1;36m|[m [1;36m|[m [1;36m|[m [33m724cd5c[m bug fixes in the chatGPT promt and response
+* [1;36m|[m [1;36m|[m [1;36m|[m   [33m9d6da1b[m Merge pull request #4 from crescendolll/open-ai-setup
+[31m|[m[32m\[m [1;36m\[m [1;36m\[m [1;36m\[m  
+[31m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [33mc3d97d2[m basic chatGPT integration done, provides a basic quiz on the website
+* [32m|[m [1;36m|[m [1;36m|[m [1;36m|[m [33m2d9a675[m Merge pull request #1 from crescendolll/open-ai-setup
+[33m|[m[32m\[m[32m|[m [1;36m|[m [1;36m|[m [1;36m|[m 
+[33m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [33mfb1e233[m open ai gem added
+[33m|[m [1;36m|[m [1;36m|[m[1;36m/[m [1;36m/[m  
+[33m|[m [1;36m|[m[1;36m/[m[1;36m|[m [1;36m|[m   
+* [1;36m|[m [1;36m|[m [1;36m|[m   [33m19a45a0[m Merge pull request #2 from crescendolll/login
+[1;36m|[m[1;36m\[m [1;36m\[m [1;36m\[m [1;36m\[m  
+[1;36m|[m [1;36m|[m[1;36m/[m [1;36m/[m [1;36m/[m  
+[1;36m|[m[1;36m/[m[1;36m|[m [1;36m/[m [1;36m/[m   
+[1;36m|[m [1;36m|[m[1;36m/[m [1;36m/[m    
+[1;36m|[m * [1;36m/[m [33m530b55d[m log in
+[1;36m|[m[1;36m/[m [1;36m/[m  
+* [1;36m|[m [33m1967a02[m controllers and routes created
+* [1;36m|[m [33m3cfff21[m recommendations controller created
+[1;36m|[m[1;36m/[m  
+* [33m49bb842[m setup migrations, models and validation
+* [33m6a53b08[m Initial commit with devise template from https://github.com/lewagon/rails-templates
