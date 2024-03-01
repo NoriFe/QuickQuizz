@@ -1,0 +1,12 @@
+<div class="page-container">
+  <!-- TODO: make better/prettier -->
+  <div class="alert-container">
+    <div class="card-basic">
+      <div class="alert-title">
+        <%= @quiz.title %>
+      </div>
+      <%= link_to "Start the quiz", new_quiz_quiz_result_path(@quiz), class: "wide-button centered-button" %>
+    </div>
+  </div>
+  <!-- TODO: make better/prettier -->
+</div>

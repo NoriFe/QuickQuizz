@@ -1,0 +1,67 @@
+.xs-text {
+  font-size: $xs-text;
+}
+
+.small-text {
+  font-size: $small-text;
+}
+
+.medium-text {
+  font-size: $medium-text;
+}
+
+.large-text {
+  font-size: $large-text;
+}
+
+.big-text {
+  font-size: $big-text;
+}
+
+.xl-text {
+  font-size: $xl-text;
+}
+
+.page-title-s {
+  font-size: $small-text;
+  color: #d4d4d4;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.page-title-quiz {
+  font-size: $small-text;
+  color: #d4d4d4;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+.page-title-lg {
+  font-size: $large-text;
+  margin: 10px auto;
+  color: white;
+}
+
+.recommendation-title {
+  font-size: $medium-text;
+  // margin: 10px auto;
+  color: $text-color;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.black-text {
+  color: black;
+}
+
+.white-text {
+  color: white;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+.white-txt {
+  color: $white-text;
+  background-color: $light-purple;
+}

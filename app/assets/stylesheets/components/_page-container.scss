@@ -1,0 +1,9 @@
+.page-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  color: $text-color;
+  min-height: 100vh;
+}

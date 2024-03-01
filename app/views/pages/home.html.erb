@@ -1,0 +1,57 @@
+<div class="page-container">
+  <p class="page-title-s">Your Quizzes</p>
+  <div class="card-basic">
+      <div class="quizzes-donuts">
+        <% @my_quizzes.each do |quiz, highest_result| %>
+          <% if highest_result != nil %>
+            <%= link_to quiz_path(quiz), class: "donut-text" do %>
+              <div class="quiz-donut-with-name">
+                <div class="donut-home" style="--progress: <%= (highest_result*100).to_i %>%;">
+                  <div class="donut__gap-home"><%= (highest_result*100).to_i %>%</div>
+                </div>
+                <div class="donut-quiz-name">
+                  <%= quiz.title %>
+                </div>
+              </div>
+            <% end %>
+          <% else %>
+            <div class="quiz-donut-with-name">
+              <div class="donut-home" style="--progress: 0%;">
+                <div class="donut__gap-home">0%</div>
+              </div>
+              <%= link_to quiz.title, quiz_path(quiz), class: "donut-text" %>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+      <%= link_to quizzes_path, class: "wide-button centered-button white-text bold-text" do %>
+        Quizz List
+      <% end %>
+  </div>
+  <p class="page-title-s mt-3">Feed</p>
+  <div>
+    <% @sorted_quiz_feed.each do |event| %>
+      <div class="card-basic">
+        <% if event.is_a?(QuizResult) %>
+          🎉 CONGRATULATIONS !! 🏆 <br/>
+          <%= event.user.username %> scored <%= (event.result*100).to_i %>% in their <%= event.quiz.title %> Quizz!
+            <div data-controller="toggle" class="comment-like">
+              <div>
+                <i data-toggle-target="toggleLike" data-action="click->toggle#like" class="fa-regular fa-thumbs-up"></i>
+              </div>
+            </div>
+        <% elsif event.is_a?(Quiz) %>
+          ✨ HOORAY !! ✨ <br/><%= event.user.username %> created a new <%= event.title %> Quizz!
+          <div class="small-button-right mt-3">
+             <%= link_to quiz_path(event), class: "small-button centered-button white-text" do %>
+               Take this Quizz!
+             <% end %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+    <%= link_to new_quiz_path, class: "new-quiz-button-right moved-static", data: { controller: "scroll", scroll_target: "newQuizButton" } do %>
+      <div class="moved-static" data-controller="scroll" data-scroll-target="newQuizButton"></div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="form-container password-change">
+  <div class="form-inputs">
+    <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+      <%= f.error_notification %>
+
+      <%= f.input :current_password,
+                  required: true,
+                  label: false,
+                  placeholder: "Enter your current password",
+                  input_html: { autocomplete: "current-password", class: "input-field" } %>
+
+      <%= f.input :password,
+                  required: true,
+                  label: false,
+                  placeholder: "Enter your new password",
+                  input_html: { autocomplete: "new-password", class: "input-field" } %>
+
+      <%= f.input :password_confirmation,
+                  required: true,
+                  label: false,
+                  placeholder: "Confirm your new password",
+                  input_html: { autocomplete: "new-password", class: "input-field" } %>
+
+      <div class="form-actions">
+        <%= f.button :submit, "Update", class: "button" %>
+      </div>
+    <% end %>
+  </div>
+</div>

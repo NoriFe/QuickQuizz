@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;500&display=swap">
+  <style>
+    body {
+      font-family: "Mali", "Helvetica", "sans-serif";
+    }
+
+    .display {
+      min-height: 100vh;
+      padding-bottom: 60px;
+      z-index: -1;
+      overflow-x: hidden;
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, #6A5AE0 -10.0%, #1c1744 110.0%);
+    }
+
+    .circle1 {
+      position: fixed;
+      right: -150px;
+      background: #8477F0;
+      border-radius: 50%;
+      width: 400px;
+      height: 400px;
+      z-index: 0;
+      filter: blur(30px);
+      opacity: 0.4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .circle2 {
+      position: fixed;
+      left: -150px;
+      background: #8477F0;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      filter: blur(30px);
+      opacity: 0.4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .circle3 {
+      position: fixed;
+      right: -60px;
+      background: #8477F0;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      filter: blur(30px);
+      opacity: 0.4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .circle4 {
+      position: fixed;
+      left: -100px;
+      background: #8477F0;
+      border-radius: 50%;
+      width: 350px;
+      height: 350px;
+      filter: blur(30px);
+      opacity: 0.4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .circle5 {
+      position: fixed;
+      left: 0px;
+      background: #8477F0;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      filter: blur(30px);
+      opacity: 0.4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .circle6 {
+      position: fixed;
+      left: 100px;
+      background: #8477F0;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      filter: blur(30px);
+      opacity: 0.4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .page-container {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 1rem;
+      color: #1b1b1b;
+      min-height: 100vh;
+      justify-content: center;
+    }
+
+    .nice-link {
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .wide-button {
+      display: inline;
+      border: none;
+      color: #1b1b1b;
+      padding: 15px 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: 26px;
+      cursor: pointer;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      background-color: #8477F0;
+      text-decoration: none;
+
+      opacity: 1;
+      &:hover, &:focus {
+        background-color: #988ee9;
+      }
+    }
+
+    .centered-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 0px;
+    }
+
+    .white-text {
+      color: white;
+    }
+
+    .card-basic {
+      background-color: white;
+      text-decoration: none;
+      color: #1b1b1b;
+      opacity: 0.89;
+      margin-top: 16px;
+      padding: 15px 20px;
+      border-radius: 18px;
+      box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.2);
+      justify-content: center;
+    }
+
+    .card-title {
+      font-size: 1.5em;
+      /* margin: 10px auto; */
+      color: #1b1b1b;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body class="h-100">
+  <!-- This file lives in public/404.html -->
+  <div class="display">
+    <div class="background">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="circle4"></div>
+      <div class="circle5"></div>
+      <div class="circle6"></div>
+    </div>
+    <div class="page-container">
+      <div class="card-basic">
+        <p class="card-title">We're sorry, but the AI is being sassy.</p>
+        <p>If you were just <a class="nice-link" href="/quizzes/new">generating a quiz</a> or <a class="nice-link" href="/quizzes">taking a quizz</a>, please try again. </p>
+        <p>You may have also have mistyped the address or the page may have moved.</p>
+        <a class="wide-button centered-button white-text bold-text mb-3" href="/">Go back Home</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  window.addEventListener('scroll', function() {
+    var circle1 = document.querySelector('.circle1');
+    var circle2 = document.querySelector('.circle2');
+    var circle3 = document.querySelector('.circle3');
+    var circle4 = document.querySelector('.circle4');
+    var circle5 = document.querySelector('.circle5');
+    var circle6 = document.querySelector('.circle6');
+    var scrollPosition = window.scrollY;
+
+    circle1.style.top = 50 + scrollPosition * 3.5 + 'px';
+    circle2.style.top = 175 + scrollPosition * 1.8 + 'px';
+    circle3.style.top = 550 + scrollPosition * 3.5 + 'px';
+    circle4.style.top = 600 + scrollPosition * 2.0 + 'px';
+    circle5.style.top = 0 + scrollPosition * 0.4 + 'px';
+    circle6.style.top = 300 + scrollPosition * 4.0 + 'px';
+  });
+</script>
+</html>

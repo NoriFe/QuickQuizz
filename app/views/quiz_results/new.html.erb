@@ -1,0 +1,50 @@
+<div class="page-container" data-controller="question">
+    <div class="page-title-quiz">
+      <%= @quiz.title %>
+    </div>
+    <%= link_to quizzes_path do %>
+      <div class="back-to-quizzlist-button">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+    <% end %>
+    <%# ----- quiz ----- %>
+      <%= form_with model: [@quiz, @quiz_result], :html => {:class => 'question-form'} do |f| %>
+        <% @quiz.questions.each_with_index do |question, index| %>
+          <%# ----- question ----- %>
+          <div data-question-target="question" class="invisible">
+            <div class="question-card">
+              <h1>
+                <%= question.question %>
+              </h1>
+            </div>
+            <%# ----- choices ----- %>
+            <div>
+              <%= f.fields_for :answers do |ff| %>
+                <% ff.collection_radio_buttons(:choice_id, question.choices, :id, :choice) do |b| %>
+                  <%= b.label(:"data-value" => b.value, class: "wide-button white-button") { b.radio_button(:"data-correct" => b.object.correct, :"data-action" => "click->question#revealButton") + b.text } %>
+                <% end %>
+              <% end %>
+            </div>
+            <%# ----- /choices ----- %>
+         <%= render "shared/progress-bar", progress: (index + 1) * 20 %>
+          </div>
+          <%# ----- /question ----- %>
+        <% end %>
+
+        <div data-pop-up-target="popUpSubmit" class="invisible">
+          <div class="backgound-pop-up">
+            <div class="card-basic pop-up">
+              <h2 class="medium-text black-text mt-4">Well done!<br/>You completed the quizz on <%= @quiz.title %></h2>
+              <%= f.submit "Go to results", class: "wide-button green-button centered-button" %>
+            </div>
+          </div>
+        </div>
+
+      <% end %>
+      <div class="centered-button">
+         <div class="d-none result-popup" data-question-target="questionCorrect">Correct!!</div>
+         <div class="d-none result-popup" style="background-color: #D65F81;" data-question-target="questionFalse">Wrong!!</div>
+      </div>
+    <%# ----- /quiz ----- %>
+</div>
+<%#  %>
