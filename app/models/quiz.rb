@@ -23,7 +23,7 @@ class Quiz < ApplicationRecord
       image_text = RTesseract.new(temp.path).to_s
       self.text = image_text
     end
-    # creating backoff questions.
+    # creating backoff questions
     response = get_ai_answer_with_retry
     response.each do |question|
       new_question = Question.new(
