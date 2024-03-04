@@ -2,7 +2,7 @@ require 'open-uri'
 require 'retryable'
 
 class Quiz < ApplicationRecord
-  has_one_attached :image
+  has_one_attached :image, service: :cloudinary
   belongs_to :user
   has_many :questions, dependent: :destroy
   has_many :quiz_results, dependent: :destroy
@@ -23,7 +23,7 @@ class Quiz < ApplicationRecord
       image_text = RTesseract.new(temp.path).to_s
       self.text = image_text
     end
-    # creating backoff questions
+
     response = get_ai_answer_with_retry
     response.each do |question|
       new_question = Question.new(
