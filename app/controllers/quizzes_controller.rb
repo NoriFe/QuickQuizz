@@ -9,7 +9,7 @@ class QuizzesController < ApplicationController
     .order(created_at: :desc)
     .map { |quiz| [quiz, quiz.quiz_results.maximum(:result)] }
 
-    # quizzes that i dont own but have taken
+    # quizzes that i dont own but have taken.
     taken_quizzes = Quiz.joins(:quiz_results)
     .where.not(user_id: current_user.id) # Exclude quizzes owned by the current user
     .where(quiz_results: { user_id: current_user.id })
