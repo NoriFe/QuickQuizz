@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  root to: "pages#home"
+  root to: "devise/registrations#new"
   get '/profile', to: 'pages#profile'
 
   devise_scope :user do

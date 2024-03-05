@@ -1,4 +1,4 @@
-# config/initializers/cloudinary.rb
+
 
 Cloudinary.config do |config|
   config.cloud_name = ENV.fetch('CLOUD_NAME')

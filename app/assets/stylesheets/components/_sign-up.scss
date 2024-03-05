@@ -4,12 +4,20 @@ html, body {
   height: 100%;
 }
 
+.logo-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 .form-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
+  position: relative; /* Ensure child elements position relative to this container */
   z-index: 5;
 }
 
@@ -17,18 +25,6 @@ h2 {
   text-align: center;
   margin-bottom: 30px;
   color: $white-text;
-  ;
-}
-
-p {
-  color:$white-text;
-  ;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
 }
 
 input.btn {
@@ -43,7 +39,7 @@ input.btn {
 }
 
 input.btn:hover {
-  background-color:$button-hoover-green;
+  background-color: $button-hoover-green;
 }
 
 .form-control {
