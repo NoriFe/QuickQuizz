@@ -1,31 +1,33 @@
-<div class="page-container">
-  <div>
-     <%= image_tag("QuickQuizz.png", alt: "LOGO", class: "logo-image") %>
-    <div>
-      <h2>Helloo!</h2>
+<body class="page-container">
+  <div class="display">
+    <div class="form-container">
+      <%= image_tag("QuickQuizz.png", alt: "LOGO", class: "logo-image") %>
+      <h2>Log in</h2>
       <section class="sign-up-box">
-        <p>Log In</p>
         <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+          <%= f.error_notification %>
+
           <div class="form-inputs">
             <%= f.input :email,
                         label: false,
-                        required: false,
+                        required: true,
                         autofocus: true,
-                        input_html: { autocomplete: "email", placeholder: "Username", class: "test" } %>
+                        input_html: { autocomplete: "email", placeholder: "Email" } %>
             <%= f.input :password,
                         label: false,
-                        required: false,
+                        required: true,
                         input_html: { autocomplete: "current-password", placeholder: "Password" } %>
           </div>
 
           <div class="form-actions">
-            <%= f.button :submit , "Log in" %>
+            <%= f.button :submit, "Log in" %>
           </div>
-           <div class="form-actions">
-             <%= link_to 'Registration', new_user_registration_path %>
+          <div class="form-actions">
+            <%= link_to 'Registration', new_user_registration_path, class: "registration" %>
           </div>
         <% end %>
-      </section >
+      </section>
     </div>
   </div>
-</div>
+</body>

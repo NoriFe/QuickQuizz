@@ -11,16 +11,16 @@
   </head>
 
   <body class="h-100">
-    <% unless controller_name == 'registrations' && action_name == 'new' %>
-      <%= render "shared/navbar-top" %>
-      <div class="display">
-        <%= render "shared/background" %>
-        <%= render "shared/flashes" %>
-        <%= yield %>
-      </div>
-      <%= render "shared/navbar-bottom" %>
-    <% else %>
+
+    <div class="display">
+      <%= render "shared/background" %>
+      <%# <%= render "shared/navbar" %>
+      <%= render "shared/flashes" %>
+
       <%= yield %>
+    </div>
+    <% unless controller_name == 'sessions' && action_name == 'new' || controller_name == 'registrations' && action_name == 'new' %>
+      <%= render "shared/navbar-bottom" %>
     <% end %>
   </body>
 </html>
