@@ -1,0 +1,57 @@
+.glow-on-hover {
+    border: none;
+    width: 100%;
+    color: $white-text;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 26px;    
+    outline: none;    
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: $light-purple;
+    text-decoration: none;
+    opacity: 1;   
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #5900ff, #9d33ff, #8e4bfa, #8a92ff, #c540fa, #a41cff, #7a00ff, #ff00c8, #3605be);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 26px;
+}
+
+.glow-on-hover:hover:before,
+.glow-on-hover:active:before {
+    opacity: 1;
+}
+
+.glow-on-hover:hover:after,
+.glow-on-hover:active:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    border-radius: 26px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
